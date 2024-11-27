@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.shop-img img{
+    width: 100%;
+    padding: 15px;
+}
+
+.banner-img img{
+    width: 345px;
+    height: 169px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.search-bar{
+    background: #FCE000;
+    border: 2px solid #FCE000;
+    padding: 1px 5px 1px 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar-left{
+    background: #ffffff;
+    padding: 7px 10px;
+    border-radius: 20px 0 0 20px;
+    font-weight: 100 !important;
+}
+
+.search-bar .input-search{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.search-bar button{
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: 600;
+    color: #000000;
+    padding: 3px 25px !important;
+}
+
+.btn-location{
+    background: #FCE000;
+    padding: 9px 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .title{
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+.card-body .title .score{
+    float: right;
+}
+.card-body .description{
+    font-size: 12px;
+    font-weight: 100;
+}
+.card-body .description .category{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+
+.discount{
+    border-radius: 20px;
+    padding: 3px 8px;
+    background: rgba(35, 152, 8, 0.1);
+    color: rgb(35, 152, 8);
+    margin-right: 7px !important;
+}
+
+.ultima{
+    color: rgb(5, 150, 250);
+    background: rgba(5, 150, 250, 0.1);
+    border-radius: 20px;
+    padding: 3px 8px;
+    margin-right: 7px !important;
+}
+
+.card-body .order{
+    justify-content: center;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.card-body .order .btn-order{
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 20px;
+    width: 100%;
+    float: right;
+}
